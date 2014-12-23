@@ -105,6 +105,7 @@ ArcGIS GeoEvent Processor for Server是10.2新推出的一个全新扩展，用�
 
 # 系统需求
 1. 支持的操作系统
+
 ![](../images/server5.jpg?raw=true)
 2. 硬件要求
 对于部署环境，最小内存须4GB。这个要求是基于以下环境的典型部署：
