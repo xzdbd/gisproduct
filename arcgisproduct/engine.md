@@ -34,7 +34,7 @@ ArcGIS Engine运行时是根据部署的软件数量而独立销售的运行时�
 # 系统需求
 ## 1. ArcGIS 10.1 Engine系统需求
 
-1.1 支持的操作系统
+### 1.1 支持的操作系统
 
 <table width="600" cellspacing="0" cellpadding="0" align="center" style=" border:1px #CCC solid; font:12px/2.0 '宋体';">
     <tbody>
@@ -112,7 +112,7 @@ ArcGIS Engine运行时是根据部署的软件数量而独立销售的运行时�
     </tbody>
 </table>
 
-1.2 硬件条件
+### 1.2 硬件条件
 
 <table width="600" cellspacing="0" cellpadding="0" align="center" style=" border:1px #CCC solid; font:12px/2.5 '宋体';">
     <tbody>
@@ -170,7 +170,7 @@ ArcGIS Engine运行时是根据部署的软件数量而独立销售的运行时�
     </tbody>
 </table>
 
-1.3 软件条件
+### 1.3 软件条件
 
 <table width="600" cellspacing="0" cellpadding="0" align="center" style=" border:1px #CCC solid; font:12px/2.5 '宋体';">
     <tbody>
@@ -215,7 +215,7 @@ ArcGIS Engine运行时是根据部署的软件数量而独立销售的运行时�
     </tbody>
 </table>
 
-1.4 连接数据库管理系统的需求条件
+### 1.4 连接数据库管理系统的需求条件
 
 你的客户端机器(例如,一个运行ArcMap的机器)将需要有适当您正在使用的关系型数据库的客户端文件。这些客户端文件可从各自的RDBMS供应商获取,但它们也可作为便利从Esri客户服务门户作获取。请参阅数据库客户端获取更多信息。从客户服务们或获取的客户端文件是IBM DB2、Oracle、IBM Informix PostgreSQL,微软SQL Server,和微软Windows Azure的SQL数据库。客户服务门户中没有Netezza和Teradata,必须从IBM和Teradata支持网站获取。
 
@@ -297,7 +297,7 @@ ArcGIS 10.1的许可管理器的硬件需求很ArcGIS Engine的硬件需求一�
 
 ## 2. 开发SDK需求
 
-2.1 支持的操作系统
+### 2.1 支持的操作系统
 
 <table width="600" cellspacing="0" cellpadding="0" align="center" style=" border:1px #CCC solid; font:12px/2.0 '宋体';">
     <tbody>
@@ -457,7 +457,7 @@ ArcGIS 10.1的许可管理器的硬件需求很ArcGIS Engine的硬件需求一�
 
 ** ArcGIS 10.1 SP1开始支持.
 
-2.2 硬件需求
+### 2.2 硬件需求
 
 <table width="600" cellspacing="0" cellpadding="0" align="center" style=" border:1px #CCC solid; font:12px/2.5 '宋体';">
     <tbody>
@@ -484,7 +484,7 @@ ArcGIS 10.1的许可管理器的硬件需求很ArcGIS Engine的硬件需求一�
     </tbody>
 </table>
 
-2.3 开发人员解决方案 (SDK) 需求
+### 2.3 开发人员解决方案 (SDK) 需求
 
 <table width="660" cellspacing="0" cellpadding="0" align="center" style=" border:1px #CCC solid; font:12px/2.0 '宋体';">
     <tbody>
@@ -605,17 +605,17 @@ ArcGIS 10.1的许可管理器的硬件需求很ArcGIS Engine的硬件需求一�
 
 3. 操作系统限制
 
-3.1 操作系统限制—所有平台
+### 3.1 操作系统限制—所有平台
 
 当运行在64位环境中, ArcGIS for Desktop,ArcGIS Engine和ArcReader是最为32位应用程序。可参阅ArcGIS 10.1 产品是否支持64位处理器。
 
-3.2 操作系统限制—Windows
+### 3.2 操作系统限制—Windows
 
 - Winows7上的ArcGIS 开发帮助系统需要 Adobe Reader 9.1.2 或者更高. 参阅KB37244 获取更多信息。
 - ArcGlobe/ArcScene and any other 3D application generally will not work over Remote Desktop or other Windows Terminal Services clients, because they do not support 3D graphics acceleration.
 - ArcGlobe/ArcScene 和其它3D应用程序通常不会通过远程桌面或者Windows Terminal 服务终端客户端工作，因为它们不支持3D显卡加速。
 
-3.3 操作系统限制—Linux
+### 3.3 操作系统限制—Linux
 
 和ArcGIS Engine相关产品的产品只支持Linux x86(也就是，CPU符合x86体系结构)与支持的Linux版本。 这是一个要求，操作系统(二进制)不被修改。Esri不支持任何支持开发人员释放的任何操作系统。
 
