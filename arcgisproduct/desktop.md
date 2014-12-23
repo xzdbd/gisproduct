@@ -274,6 +274,4 @@ ArcGIS for Desktop为三个级别的产品都提供了一系列的扩展模块�
 
 ![](../images/desktop13.jpg?raw=true)
 
-![](../images/desktop14.jpg?raw=true)
-
 ![](../images/desktop15.jpg?raw=true)
