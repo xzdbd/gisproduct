@@ -202,13 +202,15 @@ ArcGIS for Desktop为三个级别的产品都提供了一系列的扩展模块�
 **操作系统**
 
 -Windows Server 2003标准版、企业版和数据中心版（32位和64位[EM64T]），以及Windows Server 2003终端服务。
+
 -Windows Server 2008标准版、企业版和数据中心版（32位和64位[EM64T]）。
--Windows Server 2008 R2标准版、企业版和数据中心版（64位[EM64T]）。
--Windows Server 2012标准版和数据中心版（64位[EM64T]）。
--Windows 8普通版、专业版和企业版（32位和64位[EM64T]）。
--Windows 7旗舰版、企业版、专业版和家庭高级版（32位和64位[EM64T]）。
--Windows Vista旗舰版、企业版、商用版和家庭高级版（32位和64位[EM64T]）。
--Windows XP 专业版和家庭版（32位和64位[EM64T]）。
+
+- Windows Server 2008 R2标准版、企业版和数据中心版（64位[EM64T]）。
+- Windows Server 2012标准版和数据中心版（64位[EM64T]）。
+- Windows 8普通版、专业版和企业版（32位和64位[EM64T]）。
+- Windows 7旗舰版、企业版、专业版和家庭高级版（32位和64位[EM64T]）。
+- Windows Vista旗舰版、企业版、商用版和家庭高级版（32位和64位[EM64T]）。
+- Windows XP 专业版和家庭版（32位和64位[EM64T]）。
 
 
 **硬件要求**
@@ -281,5 +283,7 @@ ArcGIS for Desktop为三个级别的产品都提供了一系列的扩展模块�
  -新增支持U.S. Census Bureau TIGER/GML、Google Spreadsheet，以及其它14种文件格式。
 
 ![](../images/desktop13.jpg?raw=true)
+
 ![](../images/desktop14.jpg?raw=true)
+
 ![](../images/desktop15.jpg?raw=true)
