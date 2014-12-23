@@ -21,7 +21,7 @@ ArcGIS Engine
 
 总之，有了ArcGIS Engine，开发人员可以更灵活性的开发出自己想要的GIS应用程序。开发人员可以使用Microsoft .NET，C++或者Java等众多交互式开发环境行业标准中的一种来建立独有的应用程序或者将ArcGIS Engine嵌入到现有的软件中来专门处理GIS的应用。
 
-![](../images/engine.png?raw=true)
+![](../images/engine.jpg?raw=true)
 
 # 关键技术
 
@@ -32,7 +32,7 @@ ArcGIS Engine包括许多可以用来进行定制应用程序开发的用户接�
 ArcGIS Engine运行时是根据部署的软件数量而独立销售的运行时许可。安装有ArcGIS for Desktop的计算机允许运行需要ArcGIS Engine运行时的应用程序，因此ArcGIS for Desktop（Basic，Standard或Advanced）的用户可以运行由ArcGIS Engine 开发的程序。其它想要使用由ArcGIS Engine开发的应用程序的用户则必须 购买并安装ArcGIS Engine运行时软件。
 
 # 系统需求
-1. ArcGIS 10.1 Engine系统需求
+## 1. ArcGIS 10.1 Engine系统需求
 
 1.1 支持的操作系统
 
@@ -295,7 +295,7 @@ ArcGIS Engine运行时是根据部署的软件数量而独立销售的运行时�
 
 ArcGIS 10.1的许可管理器的硬件需求很ArcGIS Engine的硬件需求一样
 
-2. 开发SDK需求
+## 2. 开发SDK需求
 
 2.1 支持的操作系统
 
