@@ -8,7 +8,6 @@ ArcGIS for Server是基于SOA架构的GIS服务器，通过它可以跨企业或
 
 ![](../images/server1.jpg?raw=true)
 
-***
 # 产品级别
 
 ArcGIS for Server依据其功能和服务器规模差异，提供了一个可伸缩的产品线。
@@ -27,7 +26,6 @@ ArcGIS for Server从功能上分为三个级别的版本：基础版、标准版
 
 ArcGIS for Server的三种功能级别：基础、标准和高级，功能逐级增强
 
-***
 # 主要功能
 
 **空间数据管理**--ArcGIS for Server具有两种级别的基于相同的ArcGIS Geodatabase模型的地理数据库。借助空间数据服务（Geodata services），管理员可以为发布的地理数据实现抽取，检入/检出（check-in/check-out）以及复制等功能。ArcGIS for Server的三个版本，基础版，标准版和高级版都具有空间数据管理的能力。
@@ -97,7 +95,6 @@ ArcGIS for Server的三种功能级别：基础、标准和高级，功能逐级
 
 **移动应用**--ArcGIS for Server支持iOS、Android、Windows Phone、Windows Mobile等主流移动平台。开发人员可以使用相应的开发工具包创建自定义移动应用。
 
-***
 # 扩展模块
 
 ArcGIS for Server有一系列的可选扩展，补充其核心系统的能力。
@@ -106,7 +103,6 @@ ArcGIS for Server有一系列的可选扩展，补充其核心系统的能力。
 
 ArcGIS GeoEvent Processor for Server是10.2新推出的一个全新扩展，用于实时数据分析处理。
 
-***
 # 系统需求
 1. 支持的操作系统
 
@@ -125,7 +121,6 @@ ArcGIS GeoEvent Processor for Server是10.2新推出的一个全新扩展，用�
 - IIS with Web Adaptor
 - 真正部署时，最低硬件需求并不能具体化，因为要根据用户和需求的不同进行调整。硬件需求必须考虑用户对性能和可扩展性的需求。
 
-***
 # Server 10.2 新特性
 
 ArcGIS 10.2 for Server在其稳定性和功能上都进行了一系列的增强和改进。架构方面，依然采用原生智能云架构，支持Server站点的备份和恢复；功能方面主要包含了与Portal for ArcGIS的集成，原生的数据可以直接发布要素服务；地图、要素、影像、WFS服务可使用标准化的查询；支持将OLE DB 数据源的数据发布服务；新增了ArcGIS GeoEvent Processor for Server扩展模块等。
