@@ -196,3 +196,90 @@ ArcGIS for Desktop为三个级别的产品都提供了一系列的扩展模块�
         </tr>
     </tbody>
 </table>
+
+# 系统需求
+
+**操作系统**
+
+-Windows Server 2003标准版、企业版和数据中心版（32位和64位[EM64T]），以及Windows Server 2003终端服务。
+-Windows Server 2008标准版、企业版和数据中心版（32位和64位[EM64T]）。
+-Windows Server 2008 R2标准版、企业版和数据中心版（64位[EM64T]）。
+-Windows Server 2012标准版和数据中心版（64位[EM64T]）。
+-Windows 8普通版、专业版和企业版（32位和64位[EM64T]）。
+-Windows 7旗舰版、企业版、专业版和家庭高级版（32位和64位[EM64T]）。
+-Windows Vista旗舰版、企业版、商用版和家庭高级版（32位和64位[EM64T]）。
+-Windows XP 专业版和家庭版（32位和64位[EM64T]）。
+
+
+**硬件要求**
+
+-处理器：Intel Pentium 4、Intel Core Duo 或 Xeon 处理器，最低2.2GHz，推荐多核或超线程。
+-内存：最小 2 GB。
+-磁盘空间：最小2.4 GB。
+-显示属性：24 位颜色深度。
+-屏幕分辨率：推荐在标准尺寸 (96 dpi) 下使用 1024 x 768 分辨率。
+-交换空间：取决于操作系统，最小为 500 MB。
+-联网硬件：许可管理器只需要 TCP/IP、网卡或 Microsoft 环回适配器。
+-视频/图形适配器：64 MB RAM（最低配置），建议使用 256 MB RAM 或更高配置。支持 NVIDIA、ATI 和 Intel 芯片组。
+
+
+**软件要求**
+
+-在安装 ArcGIS for Desktop 之前必须先安装 .NET Framework 3.5 SP1。
+
+#Desktop 10.2 新特性
+
+**质量和性能**
+
+ -解决了600多的软件问题。
+
+ -扩展了Geoprocessing中的并行处理能力，使得空间分析工具当中的5个工具能够支持最多4核的并行处理。
+
+ -由于优化了文件处理，使得Linux环境下ArcGIS for Server的GP服务效率快25%
+
+**安全性**
+ -增加的PKI支持来满足双重身份验证，这使得软件环境更加安全。
+ -支持的单点登录，可从任意客户端一次性登录到ArcGIS并在整个系统中使用。
+ -当使用SQL查询定义服务时，提供标准SQL解析器以防止“注入式攻击”。
+**分析**
+ -新增转换工具，用于Excel到Table以及要素类到JSON之间的转换。
+ -新增数据管理工具，支持启用和禁用地理数据库归档。
+ -多核并行处理功能，现已实现于一些空间分析工具当中。
+ -新增统计分析工具最优热点分析，可探索数据和确定最有设置。
+ -新增三维分析工具通视性分析，可通过潜在障碍确定通视分析的能见度。
+ -新增3个栅格地理处理工具，分别是计算融合权重工具、合并镶嵌数据集条目工具、拆分镶嵌数据集条目工具。
+ -可以创建包含Esri ST_Geometry或SpatiaLite空间类型的SQLite数据库。
+ -使用Python能够自动发布地理编码服务。
+**制图**
+ -ArcGIS 10.1与ArcGIS 10.2的工程文档相互兼容。
+ -ArcGIS世界影像底图提供了很多国家的高分辨率卫星和航空影像。
+ -ArcGIS报告工具允许用户从图层或属性表的数据中创建自定义邮件标签。
+ -PDF导出速度更快、文件更小。
+**三维**
+ -共享三维场景。将ArcScene文档导出为3D web场景，能够被加载到ArcGIS Online、Portal或本地Web服务器上并进行分享。
+ -规则驱动生成三维内容。利用CityEngine 2013制作的规则包可应用于当前的地理处理工作流中，直接在ArcGIS中调用并生成三维模型。
+ -自动计算LAS数据的空间索引和概要统计，使得Lidar数据的访问速度更快，并提升了LAS dataset的整体性能。
+**影像**
+ -提供中国卫星Raster Type扩展下载，支持中国卫星影像数据在ArcGIS中的管理和使用。新增支持三种新的栅格类型：DMCii、Pleiades和SPOT6。
+ -Search窗口支持栅格数据搜索，所有栅格数据类型都支持，并可以基于元数据对数据进行检索。
+ -空间分析中新的Local栅格函数，在单波段中支持像素级的许多函数功能。
+ -新增镶嵌算子，Sum功能被添加到任何使用镶嵌操作的工具和函数中。
+**与云集成**
+ -桌面端也可以连接Portal for ArcGIS（像ArcGIS Online一样），并允许用户发布和使用其中的Web maps和services。
+ -增强了桌面端登录到ArcGIS Online的过程，包括安全性改进以及可指定连接检查的频次。
+**地理数据**
+ -大数据支持能力，包括与Hadoop集成、更多大数据平台的支持（Teradata、SQLite 、IBM Netezza 7.0、INZA2.5、PostgreSQL 9.2）。
+ -能够将DB2，Informix，Oracle，PostgreSQL和SQL Server的原生数据发布为要素服务。
+ -在Desktop，Server和Runtime中允许地图离线编辑，以支持基于移动和Web的工作流。
+ -支持数据库字段属性修改，例如字段名称、数据类型、别名、默认值等。
+ -支持非版本化数据的数据库归档。
+**逻辑示意图**
+ -地图包（.mpk）新增支持逻辑示意图图层，用户可以打包和复制schematic数据并发布为schematic服务。
+ -迁移和导出schematic数据集时可以进行过滤。
+**数据互操作**
+ -Data Interoperability扩展模块使用FME 2013应用程序。
+ -新增支持U.S. Census Bureau TIGER/GML、Google Spreadsheet，以及其它14种文件格式。
+
+![](../images/desktop13.jpg?raw=true)
+![](../images/desktop14.jpg?raw=true)
+![](../images/desktop15.jpg?raw=true)
