@@ -10,11 +10,11 @@ ArcGIS for Desktop是为GIS专业人士提供的用于信息制作和使用的�
 
 **无限的数据和地图分享**：能够轻松地创建GIS资源，并向个人、工作组或组织分享这些信息。
 
-![](images/desktop1.png)
+![](../images/desktop1.png)
 
-![](images/desktop2.png?raw=true)
+![](../images/desktop2.png?raw=true)
 
-![](images/desktop3.png?raw=true)
+![](../images/desktop3.png?raw=true)
 
 # 产品级别
 
